@@ -1,6 +1,4 @@
 # Ignore env folder
-env/bin/python
-env/lib/python3.6/site-packages
 env/
 
 # Byte-compiled / optimized / DLL files
@@ -72,36 +70,6 @@ celerybeat-schedule
 
 # Environments
 .env
-.venv
 env/
-venv/
 ENV/
 env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-dmypy.json
-dmypy.ini
-
-# Pyre type checker
-.pyre/
-
-# pytype static type analyzer
-.pytype/
-
-# Cython debug symbols
-cython_debug/
-
-
-env/

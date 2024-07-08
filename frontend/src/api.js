@@ -3,11 +3,10 @@ import { ACCESS_TOKEN } from "./constants"
 
 const api = axios.create({
     baseURL: import.meta.env.VITE_API_URL,
-    timeout: 5000
 })
 
 api.interceptors.request.use(
-    config => {
+    (config) => {
         const token = localStorage.getItem(ACCESS_TOKEN);
         if (token) {
             config.headers.Authorization = `Bearer ${token}`
